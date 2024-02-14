@@ -1,0 +1,166 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    body{
+        width: 100%;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        min-width: 100vh;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .container{
+        width: 50%;
+        overflow-y: scroll;
+        height: 90vh;
+        padding: 15px 2%;
+        box-shadow: 0 0 5px black;
+    }
+    .container::-webkit-scrollbar{
+        width: 14px;
+        border: 1px solid black;
+    }
+    .container::-webkit-scrollbar-thumb{
+       background-color: black; 
+       border-radius: 6px;
+    }
+    .hr_dados1{
+        border-top:medium dashed black;
+        border-bottom: medium dashed black;
+        height: 5px;
+        overflow: visible;
+        padding: 0;
+        text-align: center;
+    }
+    .hr_dados1::after{
+        content: "Larissa de Almeida Silva";
+        font-size: 1.4em;
+        padding: 0 0.3em;
+        top: -0.7em;
+        background: white;
+        display: inline;
+        position: relative;
+       
+    }
+    .hr_01{
+        
+        border-top:medium dashed black;
+        border-bottom: medium dashed black;
+        height: 3px;
+        overflow: visible;
+        padding: 0;
+        text-align: center;
+ 
+    }
+    .hr_01::after
+    {
+       content: "Objetivo";
+        position: relative;
+        top: -0.7em;
+        font-size: 1.4em;
+        background-color: white;
+        display: inline;
+        padding: 0 0.3em;
+        
+    }
+    .hr_02{
+        border-top:medium dashed black;
+        border-bottom: medium dashed black;
+        height: 3px;
+        overflow: visible;
+        padding: 0;
+        text-align: center;
+
+    }
+    .hr_02::after{
+        content: "Resumo";
+        position: relative;
+        top: -0.7em;
+        font-size: 1.4em;
+        background-color: white;
+        display: inline;
+        padding: 0 0.3em;
+    } 
+    .hr_06{
+        border-top:medium dashed black;
+        border-bottom: medium dashed black;
+        height: 3px;
+        overflow: visible;
+        padding: 0;
+        text-align: center;
+
+    }
+    .hr_06::after{
+        content: "Idiomas";
+        position: relative;
+        top: -0.3em;
+        font-size: 1.4em;
+        background-color: white;
+        display: inline;
+        padding: 0 0.3em;
+    }
+    .hr_07{
+        border-top:medium dashed black;
+        border-bottom: medium dashed black;
+        height: 3px;
+        overflow: visible;
+        padding: 0;
+        text-align: center;
+
+    }
+    .hr_07::after{
+        content: "Linguagens";
+        position: relative;
+        top: -0.2em;
+        font-size: 1.4em;
+        background-color: white;
+        display: inline;
+        padding: 0 0.3em;
+    }
+    .hr_08{
+        border-top:medium dashed black;
+        border-bottom: medium dashed black;
+        height: 3px;
+        overflow: visible;
+        padding: 0;
+        text-align: center;
+
+    }
+    .hr_08::after{
+        content: "Redes Sociais";
+        position: relative;
+        top: -0.2em;
+        font-size: 1.4em;
+        background-color: white;
+        display: inline;
+        padding: 0 0.3em;
+        
+    }.fab {
+    cursor: pointer;
+    margin: 5px;
+    max-height: 100%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    animation: backwards;
+}
+
+.fab:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+    color: black;
+}
+
+
+.container img:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
